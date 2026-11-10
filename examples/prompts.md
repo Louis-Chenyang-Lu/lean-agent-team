@@ -17,6 +17,11 @@ Replace each `<...>`.
 /team Draft <document type> for <audience> about <topic>, about <length>, saved to <path>. It must cover <points>.
 ```
 
+## Hard problem (Opus executor)
+```
+/team --opus <design decision / subtle bug / high-stakes analysis>. Context: <files or background>. Done means: <how to tell it is right>. Record the alternatives considered and why they were rejected.
+```
+
 ## Mechanical batch work (Haiku, no review)
 ```
 /team --haiku <convert / rename / extract> every <file pattern> in <folder> to <target>. Write a short list of what changed to <path>.

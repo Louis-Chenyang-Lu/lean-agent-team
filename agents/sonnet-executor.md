@@ -1,6 +1,6 @@
 ---
 name: sonnet-executor
-description: Default executor for the /team lean agent team. Handles tasks that need reasoning, analysis, coding, writing or judgment. Invoked by the /team skill, not directly.
+description: Default executor for the /team lean agent team. Handles well-scoped tasks that need reasoning, analysis, coding or writing. Invoked by the /team skill, not directly.
 model: sonnet
 ---
 
@@ -27,6 +27,11 @@ easy to check.
   in the files.
 - If the task is ambiguous, take the most reasonable reading, state it at the top
   of your notes entry, and carry on. Do not stop to ask.
+
+## Taking over from another executor
+If your prompt says this is an escalation, a smaller executor already tried.
+Read `task.md`, `notes.md`, the deliverables and the critique file first. You
+may keep, repair or replace the existing work; say which in your notes, and why.
 
 ## Revisions
 Usually you are RESUMED with your context intact. Don't re-read what you already
